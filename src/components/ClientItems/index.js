@@ -3,9 +3,9 @@ import ClientItem from "./ClientItem";
 
 function ClientItems(props) {
   return (
-    <div class="follow">
-      <div class="card">
-        <ul class="list-media">
+    <div className="follow">
+      <div className="card">
+        <ul className="list-media">
           <ClientItem />
           <ClientItem />
           <ClientItem />

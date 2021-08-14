@@ -4,17 +4,17 @@ function TableRow(props) {
   return (
     <tr>
       <td>
-        <div class="list-media">
-          <div class="list-item">
-            <div class="media-img">
+        <div className="list-media">
+          <div className="list-item">
+            <div className="media-img">
               <img
                 src="assets/img/companies/company (7).png"
                 width="100"
                 alt=""
               />
             </div>
-            <div class="info">
-              <span class="title text-semibold">Polaris</span>
+            <div className="info">
+              <span className="title text-semibold">Polaris</span>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ function TableRow(props) {
       <td>$12.81</td>
       <td>$4,485</td>
       <td>
-        <a href="/" class="badge badge-danger">
+        <a href="/" className="badge badge-danger">
           -5.95%
         </a>
       </td>
