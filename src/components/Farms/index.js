@@ -14,11 +14,6 @@ function Farms(props) {
           <FarmItem />
           <FarmItem />
           <FarmItem />
-          <FarmItem />
-          <FarmItem />
-          <FarmItem />
-          <FarmItem />
-          <FarmItem />
         </ul>
       </div>
     </div>

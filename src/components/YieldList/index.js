@@ -6,14 +6,9 @@ function YieldList(props) {
     <div className="follow">
       <div className="card">
         <div className="card-header">
-          <h4 className="card-title">TOP 10 APY%</h4>
+          <h4 className="card-title">TOP 5 APY%</h4>
         </div>
         <ul className="list-media">
-          <YieldListItem />
-          <YieldListItem />
-          <YieldListItem />
-          <YieldListItem />
-          <YieldListItem />
           <YieldListItem />
           <YieldListItem />
           <YieldListItem />
