@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar(props) {
   return (
@@ -19,24 +20,24 @@ function Navbar(props) {
               </span>
             </a>
             <ul className="dropdown-menu sub-down">
-              <li className="active">
-                <a>Overview</a>
-              </li>
-              <li>
-                <a>Yield Farming</a>
-              </li>
-              <li>
-                <a>Liquidity Pool Data</a>
-              </li>
-              <li>
-                <a>Dex Analytics</a>
-              </li>
-              <li>
-                <a>NFT Analytic Data</a>
-              </li>
-              <li>
-                <a>Token</a>
-              </li>
+              <NavLink to="/" activeClassName="active">
+                Overview
+              </NavLink>
+              <NavLink to="/yield-farming" activeClassName="active">
+                Yield Farming
+              </NavLink>
+              <NavLink to="/liquidity-pool-data" activeClassName="active">
+                Liquidity Pool Data
+              </NavLink>
+              <NavLink to="/dex-analytics" activeClassName="active">
+                Dex Analytics
+              </NavLink>
+              <NavLink to="/nft-analytic-data" activeClassName="active">
+                NFT Analytic Data
+              </NavLink>
+              <NavLink to="/token" activeClassName="active">
+                Token
+              </NavLink>
             </ul>
           </li>
           <li className="nav-item dropdown">
