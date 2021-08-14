@@ -6,9 +6,6 @@ function Navbar(props) {
     <div className="side-nav expand-lg">
       <div className="side-nav-inner">
         <ul className="side-nav-menu">
-          <li className="side-nav-header">
-            <span>Metadapp</span>
-          </li>
           <li className="nav-item dropdown open">
             <a className="dropdown-toggle">
               <span className="icon-holder">
