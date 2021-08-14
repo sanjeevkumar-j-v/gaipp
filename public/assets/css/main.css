@@ -452,7 +452,7 @@ hr {
   position: fixed;
   padding: 0px;
   z-index: 1040;
-  background-color: #ffffff;
+  background-color: #1a2942;
   border-bottom: 1px solid #e9eaec;
   margin-bottom: 0px;
   transition: all 0.2s ease;
@@ -479,6 +479,10 @@ hr {
   width: 60px;
   line-height: 60px;
   text-align: center;
+}
+.header .header-container .nav-logo img {
+  width: 200%;
+  margin-left: 20px;
 }
 
 .header .header-container .nav-left, .header .header-container .nav-right {
@@ -826,8 +830,8 @@ hr {
   background: #e22a6f;
 }
 
-.side-nav .side-nav-inner .side-nav-menu li a:hover,
-.side-nav .side-nav-inner .side-nav-menu li a:focus {
+.side-nav .side-nav-inner .side-nav-menu li>a:hover,
+.side-nav .side-nav-inner .side-nav-menu li>a:focus {
   color: #fff;
   background: #e22a6f;
 }
