@@ -10,7 +10,7 @@ function Overview(props) {
   return (
     <div className="page-container">
       <div className="main-content">
-        <Breadcrumb />
+        <Breadcrumb pageName="Overview" />
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">

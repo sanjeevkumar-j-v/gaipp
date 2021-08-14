@@ -9,7 +9,7 @@ function Breadcrumb(props) {
             <li>
               <a href="/">Dashboard {">"}</a>
             </li>
-            <li className="active">Overview</li>
+            <li className="active">{props.pageName}</li>
           </ol>
         </div>
       </div>
