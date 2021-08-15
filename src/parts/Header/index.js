@@ -9,7 +9,7 @@ function Header(props) {
             <b>
               <img src="assets/img/GAIPP-logo.png" width="100" alt="" />
             </b>
-            {/* <span className="logo">METADAPP</span> */}
+            {/* <span className="logo">GAIPP</span> */}
           </a>
         </div>
         <ul className="nav-left">
