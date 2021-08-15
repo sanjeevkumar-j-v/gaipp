@@ -110,7 +110,7 @@
     padding: calc(50px + 35px) 0px 15px 0px;
   }
   .table-overflow .title {
-    line-height: 22px;
+    /* line-height: 22px; */
   }
   #calendar {
     margin-top: 20px;
