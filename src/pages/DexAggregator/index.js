@@ -1,14 +1,15 @@
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb";
-function DexAnalytics(props) {
+import TableWithGraph from "../../components/TableWithGraph"
+function DexAggregator(props) {
   return (
     <div className="page-container">
       <div className="main-content">
-        <Breadcrumb pageName="Dex Analytics" />
+        <Breadcrumb pageName="Dex Aggregator" />
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
-              <h1>Dex Analytics</h1>
+              <h1>Dex Aggregator</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -24,9 +25,21 @@ function DexAnalytics(props) {
             </div>
           </div>
         </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12">
+              <div className="card">
+                {/* <div className="card-header">
+                  <h4 className="card-title">Top 10 tokens of the chains</h4>
+                </div> */}
+                <TableWithGraph />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
 
-export default DexAnalytics;
+export default DexAggregator;

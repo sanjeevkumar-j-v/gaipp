@@ -26,8 +26,8 @@ function Navbar(props) {
               <NavLink to="/liquidity-pool-data" activeClassName="active">
                 Liquidity Pool Data
               </NavLink>
-              <NavLink to="/dex-analytics" activeClassName="active">
-                Dex Analytics
+              <NavLink to="/dex-aggregator" activeClassName="active">
+                Dex Aggregator
               </NavLink>
               <NavLink to="/nft-analytic-data" activeClassName="active">
                 NFT Analytic Data

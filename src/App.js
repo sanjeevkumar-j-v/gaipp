@@ -2,7 +2,7 @@ import { Route, Switch } from "react-router-dom";
 import Header from "./parts/Header";
 import Navbar from "./parts/Navbar";
 import Overview from "./pages/Overview";
-import DexAnalytics from "./pages/DexAnalytics";
+import DexAggregator from "./pages/DexAggregator";
 import LiquidityPoolData from "./pages/LiquidityPoolData";
 import NFTAnalyticData from "./pages/NFTAnalyticData";
 import Token from "./pages/Token";
@@ -19,8 +19,8 @@ function App() {
         <Route path="/liquidity-pool-data">
           <LiquidityPoolData />
         </Route>
-        <Route path="/dex-analytics">
-          <DexAnalytics />
+        <Route path="/dex-aggregator">
+          <DexAggregator />
         </Route>
         <Route path="/nft-analytic-data">
           <NFTAnalyticData />
